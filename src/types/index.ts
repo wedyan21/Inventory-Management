@@ -1,7 +1,7 @@
 export interface User {
   id: string;
   username: string;
-  role: 'admin' | 'manager' | 'viewer';
+  role: 'admin' | 'editor' | 'viewer';
 }
 
 export interface InventoryItem {
