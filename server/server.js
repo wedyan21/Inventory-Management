@@ -35,7 +35,7 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
 });
 // Serve React build
-const __dirname = path.resolve();
+
 app.use(express.static(path.join(__dirname, '../dist')));
 
 app.get('*', (req, res) => {
