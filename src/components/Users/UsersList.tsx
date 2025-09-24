@@ -184,7 +184,7 @@ const UsersList: React.FC = () => {
       {deleteUser && (
         <DeleteConfirmModal
           title="Delete User"
-          message={`Are you sure you want to delete "${deleteUser.email}"? This action cannot be undone.`}
+          message={`Are you sure you want to delete "${deleteUser.username}"? This action cannot be undone.`}
           onConfirm={() => {
             handleDelete(deleteUser.id);
             setDeleteUser(null);
