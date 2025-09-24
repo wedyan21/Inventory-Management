@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogOut, Package, Users, BarChart3, Settings } from 'lucide-react';
+import { LogOut, Package, Users, BarChart3 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 interface LayoutProps {
